@@ -1,0 +1,38 @@
+[global]
+# Streamlit config for Market Research App
+
+[theme]
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+# Server configuration
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[client]
+# Client configuration
+caching = true
+displayEnabled = true
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[runner]
+# Runner configuration
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+postScriptGC = true
+fastReruns = true
