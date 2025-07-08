@@ -1,0 +1,184 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# API keys and sensitive data
+.env
+*.pem
+credentials.json
+token.json
+secrets.yaml
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+doc/_build/
+
+# PyBuilder
+target/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Project specific
+data/
+outputs/
+results/
+.DS_Store
+temp/
+tmp/
+cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model files
+*.pkl
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Large data files
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files (if generated during operation)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.pdf
+
+# Exclude example data that should be committed
+!examples/*.csv
+!examples/*.json
+!examples/*.jsonl
+!examples/*.parquet
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
