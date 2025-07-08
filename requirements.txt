@@ -1,0 +1,48 @@
+# Core dependencies
+langchain
+langchain_openai
+langgraph
+openai
+python-dotenv
+
+# Web interaction and parsing
+requests
+beautifulsoup4
+lxml
+
+# Data processing
+pandas
+numpy
+matplotlib
+
+# NLP and sentiment analysis
+nltk
+
+# Web interface
+streamlit
+
+# Optional dependencies (comment out if not needed)
+# Financial data
+yfinance
+
+# Google Maps integration
+googlemaps
+
+# SerpAPI integration
+google-search-results
+
+# Utilities
+tqdm
+pyyaml
+jsonschema
+
+# Visualization extras
+seaborn
+plotly
+
+# Development tools (optional)
+pytest
+black
+flake8
+isort
+mypy

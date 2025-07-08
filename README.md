@@ -44,17 +44,11 @@ Supervisor
 
 ```
 market_research/
-├── agents/                     # Agent definitions
-│   ├── __init__.py
-│   ├── competitive_analysis_agent_definition.py
-│   ├── consumer_insights_agent_definition.py
-│   ├── market_sizing_agent_definition.py
-│   └── market_trends_agent_definitino.py
 ├── tools/                      # Tool implementations
 │   ├── __init__.py
 │   └── agent_tools.py          # Implementation of research tools
 ├── app.py                      # Entry point for running the application
-├── main.py                     # Main implementation and standalone execution
+├── agent_definations.py        # All agents definations
 ├── supervisor.py               # Agent orchestration and coordination
 ├── market_research_app.py      # Streamlit UI implementation
 ├── requirements.txt            # Project dependencies
@@ -99,22 +93,6 @@ market_research/
    ```
 
 ### Running the Application
-
-#### Command Line Interface
-
-Run the application with a specific query:
-
-```bash
-python main.py --query "I want to start a coffee shop in San Francisco, what is the market size and how should I approach it?"
-```
-
-Or run in interactive mode:
-
-```bash
-python main.py
-```
-
-#### Web Interface
 
 Launch the Streamlit web interface:
 
